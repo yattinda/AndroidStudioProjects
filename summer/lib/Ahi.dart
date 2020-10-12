@@ -15,6 +15,18 @@ class Ahi extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             title: Text("Ahi"),
+            actions: <Widget> [
+              Row(
+                children: <Widget>[
+                  Icon(
+                    Icons.keyboard,
+                  ),
+                  Icon(
+                    Icons.car_rental,
+                  ),
+                ],
+              )
+            ],
           ),
           body: Consumer<AhiModel>(
             builder: (context, model, child) {

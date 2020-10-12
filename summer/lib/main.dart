@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:summer/Next.dart';
 import 'package:summer/Ahi.dart';
 import 'package:summer/ahiahi.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
+  debugPaintSizeEnabled = true;
   runApp(MyApp());
 }
 
