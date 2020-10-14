@@ -16,18 +16,20 @@ class _RootWidgetState extends State<RootWidget> {
   int _selectedIndex = 0;
   final _bottomNavigationBarItems = <BottomNavigationBarItem>[];
 
+  //Change here
   static const _footerIcons = [
     Icons.home,
     Icons.textsms,
     Icons.ramen_dining,
   ];
 
+  //Change here
   static const _footerItemNames = [
     'ホーム',
     'トーク',
     'NumberGirl',
   ];
-
+  //Change here
   var _routes = [
     Home(),
     Talk(),
