@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'root.dart';
+import 'routes/transition/modal.dart';
 
 void main() => runApp(MyApp());
 
