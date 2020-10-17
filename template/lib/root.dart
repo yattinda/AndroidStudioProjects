@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'routes/home.dart';
 import 'routes/talk.dart';
 import 'routes/numbergirl.dart';
+import 'routes/QR.dart';
 
 class RootWidget extends StatefulWidget {
   RootWidget({Key key}) : super(key: key);
@@ -21,6 +22,7 @@ class _RootWidgetState extends State<RootWidget> {
     Icons.home,
     Icons.textsms,
     Icons.ramen_dining,
+    Icons.qr_code,
   ];
 
   //Change here
@@ -28,12 +30,14 @@ class _RootWidgetState extends State<RootWidget> {
     'ホーム',
     'トーク',
     'NumberGirl',
+    'QR',
   ];
   //Change here
   var _routes = [
     Home(),
     Talk(),
     NumberGirl(),
+    QR(),
   ];
 
   @override
