@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:template/routes/QRscan.dart';
 
 import 'routes/home.dart';
 import 'routes/talk.dart';
 import 'routes/numbergirl.dart';
 import 'routes/QR.dart';
+import 'routes/QRscan.dart';
 
 class RootWidget extends StatefulWidget {
   RootWidget({Key key}) : super(key: key);
@@ -23,6 +25,7 @@ class _RootWidgetState extends State<RootWidget> {
     Icons.textsms,
     Icons.ramen_dining,
     Icons.qr_code,
+    Icons.qr_code_scanner
   ];
 
   //Change here
@@ -31,6 +34,7 @@ class _RootWidgetState extends State<RootWidget> {
     'トーク',
     'NumberGirl',
     'QR',
+    'QRscan',
   ];
   //Change here
   var _routes = [
@@ -38,6 +42,7 @@ class _RootWidgetState extends State<RootWidget> {
     Talk(),
     NumberGirl(),
     QR(),
+    QRscan(),
   ];
 
   @override
